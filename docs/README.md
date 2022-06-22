@@ -10,7 +10,7 @@ features:
 - title: 优秀体验
   details: 通过 Telegram Web App 提供 CAPTCHA 验证，轻点就能加入聊天。
 - title: 开源 + 隐私优先
-  details: 机器人处理过程中不保存任何数据，同时代码开源，在审计的同时也可以自行部署。
+  details: 机器人处理过程中不读取聊天、不保存任何数据，同时代码开源，在审计的同时也可以自行部署。
 footer: MIT Licensed | Copyright © 2022 Astrian Zheng
 ---
 

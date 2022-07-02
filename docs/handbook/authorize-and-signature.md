@@ -1,7 +1,7 @@
 # 请求签名与信息验证
 在版本 2206.02 之前，Telegram Watchdog 发往用户的 Web app 验证按钮中仅携带用户希望加入的群组的 ID 参数，不包含申请时间、验证消息 ID 等参数。加上 Telegram Watchdog 本身没有数据库来存储用户数据，这就导致 Telegram Watchdog 不能判断用户通过人机验证的时间是否距离申请时间太长，以及在申请通过之后不会删除/修改对应验证消息。
 
-在 [2206.02](https://docs.tgwatchdog.astrian.moe/changelogs/2206.02.html) 版本之后，Telegram Watchdog 现在既可以判断人机验证时间是否距离申请时间太长，也可以在用户（未）通过人机挑战的同时删除验证消息和申请。在达成以上功能的同时，Telegram Watchdog 依然不存储任何用户数据。
+在 [2206.02](/changelogs/2206.02.html) 版本之后，Telegram Watchdog 现在既可以判断人机验证时间是否距离申请时间太长，也可以在用户（未）通过人机挑战的同时删除验证消息和申请。在达成以上功能的同时，Telegram Watchdog 依然不存储任何用户数据。
 
 本文将针对这两个功能实现的核心技术——消息签名——进行简单的解释。
 
@@ -22,7 +22,7 @@
 ## 使用消息签名验证用户请求
 [HMAC 哈希算法](https://zh.m.wikipedia.org/zh-tw/HMAC)被广泛用于数据真实性验证。简单来说，HMAC 会生成关于输入数据的「特征码（令牌）」，即使输入数据中有着细微改动，「特征码」也会发生变化。
 
-利用这个原理，Telegram 可以在收到入群申请的时候，将时间、验证消息 ID 等参数放入 HMAC 中生成令牌，然后将令牌连同参数放入 Telegram Watchdog 发往用户的入群请求中。
+利用这个原理，Telegram Watchdog 可以在收到入群申请的时候，将时间、验证消息 ID 等参数放入 HMAC 中生成令牌，然后将令牌连同参数放入 Telegram Watchdog 发往用户的入群请求中。
 
 ```typescript
 export default async (msgId: number, chatId: number, userId: number, joinTime: number): Promise<string> => { 

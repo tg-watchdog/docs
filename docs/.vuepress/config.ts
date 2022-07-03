@@ -14,11 +14,11 @@ export default defineConfig({
       "/help/": [
         '/help/',
         {
-          title: "开始",
-          path: "/help/get-started/",
+          title: "在群聊中启用",
+          path: "/help/enable-in-groupchats/",
           children: [
-            '/help/get-started/use-in-public-groups',
-            '/help/get-started/use-in-private-groups'
+            '/help/enable-in-groupchats/public-groups',
+            '/help/enable-in-groupchats/private-groups'
           ]
         }
       ],

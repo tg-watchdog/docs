@@ -1,10 +1,10 @@
-# 在私有群中使用
+# 在私有群组中使用
 ::: tip 步骤及细节可能略有差异
 在本篇中，我们将会在 iPhone 版 Telegram app 以英文环境解释如何启用 Telegram Watchdog。
 
 根据您的设备、操作系统和语言设定的不同，启用 Telegram Watchdog 的步骤可能会有所差异，不过，基本步骤类似。您可以根据实际情况调整您的操作。
 :::
-## 第一步：将机器人设为管理员
+## 将机器人设为管理员
 在 Telegram 中搜索「WatchdogVerifyBot」，找到 Telegram Watchdog 帐户。进入后，点击下方「Start」按钮，机器人将会回复一条消息。点击消息下方的「Set me as group admin」按钮。
 
 ![搜索 Telegram Watchdog，并点击「Start」。][image-1]
@@ -21,7 +21,11 @@
 
 ![将 Bot 设为管理员。][image-2]
 
-## 第二步：设置邀请链接
+::: tip 需要管理员权限
+进行以上操作，需要您是对应群组的拥有者（群主），或您拥有该群组的「Invite Users via Link」与「Add New Admins」管理员权限。
+:::
+
+## 设置邀请链接
 在刚才选择的私有群组中，点击右上角群组头像进入群组资料卡。再点击右上角的「Edit」按钮进入群组设置。
 
 在设置中点击「Invite Links」进入群组链接管理页面。

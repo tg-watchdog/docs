@@ -29,7 +29,7 @@
 请放心，Telegram Watchdog 本身不设有数据库，不会收集您和您加入群组的任何数据。
 :::
 
-完成 web app 中的 CAPTCHA 验证后，Telegram Watchdog 就会处理您的加入请求。之后，您可以在
+完成 web app 中的 CAPTCHA 验证后，Telegram Watchdog 就会处理您的加入请求。之后，您可以在 Telegram 聊天列表中找到您加入的群组。
 
 ::: tip 请在 180 秒内完成验证！
 每个入群请求有 180 秒有效期。如果过期后再完成 CAPTCHA 验证，您会收到「请求已过期」的提示，并且您的验证消息和入群请求也会被一并删除。

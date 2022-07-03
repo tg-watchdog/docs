@@ -24,9 +24,18 @@ export default defineConfig({
         '/help/get-verified'
       ],
       "/changelogs/": [
-        '/changelogs/2206.02',
-        '/changelogs/2206.01',
-        '/changelogs/2204.01'
+        {
+          title: "最新版本",
+          path: "/changelogs/2206.02"
+        },
+        {
+          title: "2022",
+          children: [
+            '/changelogs/2206.02',
+            '/changelogs/2206.01',
+            '/changelogs/2204.01'
+          ]
+        }
       ],
       "/handbook/": [
         '/handbook/authorize-and-signature',

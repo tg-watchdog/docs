@@ -3,7 +3,7 @@ home: true
 heroText: Telegram Watchdog
 tagline: 全新的 Telegram 群组聊天滥用验证解决方案。
 actionText: 试试看
-actionLink: https://t.me/WatchdogVerifyBot
+actionLink: https://t.me/WatchdogVerifyBot?startgroup=start&admin=can_invite_users
 features:
 - title: 低影响
   details: 利用 Telegram 群组聊天的预审与机器人私聊功能，减轻对聊天消息流的影响。

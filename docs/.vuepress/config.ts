@@ -6,6 +6,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "帮助文档", link: "/help/"},
+      { text: "常见问题", link: "/faq"},
       { text: "版本日志", link: "/changelogs/"},
       { text: "手边书", link: "/handbook/"},
       { text: "立即使用", link: "https://t.me/WatchdogVerifyBot?startgroup=start&admin=can_invite_users"},

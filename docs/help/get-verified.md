@@ -21,14 +21,6 @@
 
 点击消息下方的「Start」按钮，Telegram 会弹出 Telegram Watchdog 的 web app。
 
-::: tip 为何会提示我 Telegram Watchdog 会收集 IP 地址？
-这是 Telegram 的统一提示。
-
-由于 Telegram 的 web app 本身依赖网页相关的技术栈，因此 web app 与用浏览器访问普通网站一样，发往 Telegram Watchdog 的请求封包中会有您的 IP 地址，确保能将请求响应发送给您。
-
-请放心，Telegram Watchdog 本身不设有数据库，不会收集您和您加入群组的任何数据。
-:::
-
 完成 web app 中的 CAPTCHA 验证后，Telegram Watchdog 就会处理您的加入请求。之后，您可以在 Telegram 聊天列表中找到您加入的群组。
 
 ::: tip 请在 180 秒内完成验证！

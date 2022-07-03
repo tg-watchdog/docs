@@ -20,7 +20,8 @@ export default defineConfig({
             '/help/enable-in-groupchats/public-groups',
             '/help/enable-in-groupchats/private-groups'
           ]
-        }
+        },
+        '/help/get-verified'
       ],
       "/changelogs/": [
         '/changelogs/2206.02',

@@ -16,7 +16,7 @@ footer: MIT Licensed | Copyright © 2022 Astrian Zheng
 
 ----
 ## 需要帮助？
-请先阅读我们的[帮助文档](/welcome)。
+请先阅读我们的[帮助文档](/help/)。
 
 需要额外帮助？看看以下链接：
 

@@ -1,4 +1,9 @@
-# 开始使用
+---
+prev: /help/
+next: /help/enable-in-groupchats/public-groups
+---
+
+# 在群聊中启用
 
 在不同种类的群组聊天（公开或私有）里，Telegram Watchdog 的启用方式也有所差异。在此，我们先简单介绍启用的大致说明。
 

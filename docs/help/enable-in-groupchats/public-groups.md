@@ -1,3 +1,6 @@
+---
+prev: /help/enable-in-groupchats/
+---
 # 在公开群组中使用
 ::: tip 步骤及细节可能略有差异
 在本篇中，我们将会在 iPhone 版 Telegram app 以英文环境解释如何启用 Telegram Watchdog。

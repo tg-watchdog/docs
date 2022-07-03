@@ -2,7 +2,7 @@
 home: true
 heroText: Telegram Watchdog
 tagline: 全新的 Telegram 群组聊天滥用验证解决方案。
-actionText: 在群聊中启用
+actionText: 在群组中启用
 actionLink: https://t.me/WatchdogVerifyBot?startgroup=start&admin=can_invite_users
 features:
 - title: 低影响

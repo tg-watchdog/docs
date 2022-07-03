@@ -9,7 +9,15 @@ export default defineConfig({
       { text: "常见问题", link: "/faq"},
       { text: "版本日志", link: "/changelogs/"},
       { text: "手边书", link: "/handbook/"},
-      { text: "立即使用", link: "https://t.me/WatchdogVerifyBot?startgroup=start&admin=can_invite_users"},
+      {
+        text: "更多", 
+        items: [
+          { text: '在群组中启用', link: 'https://t.me/WatchdogVerifyBot?startgroup=start&admin=can_invite_users' },
+          { text: '试用 + 社群', link: 'https://t.me/tgwatchdog_chat' },
+          { text: '官方消息频道', link: 'https://t.me/tgwatchdog_update' },
+          { text: '源码库', link: 'https://github.com/Astrian/tg-watchdog'}
+        ]
+      },
     ],
     sidebar: {
       "/help/": [

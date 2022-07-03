@@ -1,6 +1,8 @@
 # 在私有群中使用
 ::: tip 步骤及细节可能略有差异
-在本篇中，我们将会在 iPhone 上的英语环境下的 Telegram app 解释如何启用 Telegram Watchdog。而在其他平台上，启用 Telegram Watchdog 的步骤可能会有所差异，但基本步骤类似。请根据实际情况调整您的操作。
+在本篇中，我们将会在 iPhone 版 Telegram app 以英文环境解释如何启用 Telegram Watchdog。
+
+根据您的设备、操作系统和语言设定的不同，启用 Telegram Watchdog 的步骤可能会有所差异，不过，基本步骤类似。您可以根据实际情况调整您的操作。
 :::
 ## 第一步：将机器人设为管理员
 在 Telegram 中搜索「WatchdogVerifyBot」，找到 Telegram Watchdog 帐户。进入后，点击下方「Start」按钮，机器人将会回复一条消息。点击消息下方的「Set me as group admin」按钮。

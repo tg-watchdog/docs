@@ -3,14 +3,14 @@ home: true
 heroText: Telegram Watchdog
 tagline: The brand-new solution for anti-abuse from Telegram groupchats.
 actionText: Enable in groupchats
-actionLink: https://t.me/WatchdogVerifyBot?startgroup=start&admin=can\_invite\_users
+actionLink: https://t.me/WatchdogVerifyBot?startgroup=start&admin=can_invite_users
 features:
 - title: Low impact
   details: Verify with private chat to candidate, avoid interrupt for groupchats.
 - title: Great experience
   details: Provide CAPTCHA verification with Telegram web app. Join the groupchats with just taps
 - title: Open source + privacy first
-  details: Chat logs and other data will not be saved. Source code are opened and everyone can review or contribute.
+  details: Any information will not be saved and shared. Source code are opened and everyone can review or contribute.
 footer: MIT Licensed | Copyright © 2022 Astrian Zheng
 ---
 

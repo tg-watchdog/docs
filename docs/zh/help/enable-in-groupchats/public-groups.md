@@ -1,5 +1,5 @@
 ---
-prev: /help/enable-in-groupchats/
+prev: /zh/help/enable-in-groupchats/
 ---
 # 在公开群组中使用
 ::: tip 步骤及细节可能略有差异

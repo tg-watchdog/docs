@@ -1,24 +1,28 @@
 ---
 home: true
 heroText: Telegram Watchdog
-tagline: 全新的 Telegram 群组聊天滥用验证解决方案。
-actionText: 在群组中启用
-actionLink: https://t.me/WatchdogVerifyBot?startgroup=start&admin=can_invite_users
+tagline: The brand-new solution for anti-abuse from Telegram groupchats.
+actionText: Enable in groupchats
+actionLink: https://t.me/WatchdogVerifyBot?startgroup=start&admin=can\_invite\_users
 features:
-- title: 低影响
-  details: 利用 Telegram 群组聊天的预审与机器人私聊功能，减轻对聊天消息流的影响。
-- title: 优秀体验
-  details: 通过 Telegram Web App 提供 CAPTCHA 验证，轻点就能加入聊天。
-- title: 开源 + 隐私优先
-  details: 机器人处理过程中不读取聊天、不保存任何数据，同时代码开源，在审计的同时也可以自行部署。
+- title: Low impact
+  details: Verify with private chat to candidate, avoid interrupt for groupchats.
+- title: Great experience
+  details: Provide CAPTCHA verification with Telegram web app. Join the groupchats with just taps
+- title: Open source + privacy first
+  details: Chat logs and other data will not be saved. Source code are opened and everyone can review or contribute.
 footer: MIT Licensed | Copyright © 2022 Astrian Zheng
 ---
 
-----
-## 需要帮助？
-请先阅读我们的[帮助文档](/help/)。
+---- 
+## Need some help?
+Read [the help documents][1] first.
 
-需要额外帮助？看看以下链接：
+Or check out at those links if you need more information:
 
-- 加入社群：[https://t.me/tgwatchdog_chat](https://t.me/tgwatchdog_chat)
-- 官方消息频道：[https://t.me/tgwatchdog_update](https://t.me/tgwatchdog_update)
+- Join official community: [https://t.me/tgwatchdog\_chat][2]
+- Official channel: [https://t.me/tgwatchdog\_update][3]
+
+[1]:	/help/
+[2]:	https://t.me/tgwatchdog_chat
+[3]:	https://t.me/tgwatchdog_update

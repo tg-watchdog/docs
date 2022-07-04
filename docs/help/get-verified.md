@@ -1,30 +1,30 @@
 
-# 加入群组并完成验证
-::: tip 步骤及细节可能略有差异
-在本篇中，我们将会在 iPhone 版 Telegram app 以英文环境解释如何加入启用 Telegram Watchdog 的群组。
+# Join and Verify
+::: tip Details may Varies
+In this document, we will introduce the detailed steps with official Telegram client on an iPhone with “English” OS language setting.
 
-根据您的设备、操作系统和语言设定的不同，完成来自 Telegram Watchdog 的 CAPTCHA 验证的步骤可能有所不同，不过，基本步骤类似。您可以根据实际情况调整您的操作。
+Some details may varies according to your device, OS or language settings. However, the steps are highly similar between those situations and you can adjust your operation according to the actual situation.
 :::
 
-要加入启用了 Telegram Watchdog 验证的群组很简单，您不需要完成复杂的 CAPTCHA 难题，只需要点击两下就能完成验证、加入群组。
+Join the groupchats with Telegram Watchdog is piece-easy. No complicated CAPTCHA question required, just few taps.
 
-首先，根据您加入群组的类型不同，您可能会看到以下两种提示：
+According to the type of the groupchat you want to join, you may see those two prompts:
 
-- **如果您希望加入私有群组**：您会看到一张群组名片，并提示您需要经过管理员同意才能加入群组。
-- **如果您希望加入公开群组**：您可以看到群组聊天记录，底部的加入按钮为「Apply to Join Group」。
+- **You want to join private groupchat**: You will see a popped-up card and it prompt you that you need to approved by admin to join the chat.
+- **You want to join public groupchat**：You can see the chat history, and a “Apply to Join Group” button.
 
-![在私有群组中和公开群组中的加入群聊前审核的提示。][image-1]
+![Join request required in private and public groupchats.][image-1]
 
-点击「Request to Join Group」或「Apply to Join Group」按钮后，您会收到 Telegram Watchdog 发来的验证消息。
+Tap “Request to Join Group” or “Apply to Join Group”, and you will receive a verify request sent by Telegram Watchdog.
 
-![收到的验证消息，以及 CAPTCHA 页面。][image-2]
+![Verify request and CAPTCHA page.][image-2]
 
-点击消息下方的「Start」按钮，Telegram 会弹出 Telegram Watchdog 的 web app。
+Tap “Start Verify” button below the message, the Telegram will pop up the web app of Telegram Watchdog.
 
-完成 web app 中的 CAPTCHA 验证后，Telegram Watchdog 就会处理您的加入请求。之后，您可以在 Telegram 聊天列表中找到您加入的群组。
+Telegram Watchdog will process your join request after you completed your CAPTCHA inside the web app. Then, you can find the groupchat you just joined.
 
-::: tip 请在 180 秒内完成验证！
-每个入群请求有 180 秒有效期。如果过期后再完成 CAPTCHA 验证，您会收到「请求已过期」的提示，并且您的验证消息和入群请求也会被一并删除。
+::: tip Complete Your CAPTCHA In 180 Seconds!
+Every join requests will be expired in 180 seconds. You will be notified when you complete your CAPTCHA after the expiration time, and your request and verification message will also be deleted.
 :::
 
 [image-1]:	./images/group-approval-settings.png

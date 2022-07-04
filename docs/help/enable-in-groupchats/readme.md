@@ -3,31 +3,30 @@ prev: /help/
 next: /help/enable-in-groupchats/public-groups
 ---
 
-# 在群聊中启用
+# Enable in Groupchats
+The ways that enable Telegram Watchdog are different, according to the type of your groupchats. In this documents, we will discuss the general steps of how to enable Telegram Watchdog.
 
-在不同种类的群组聊天（公开或私有）里，Telegram Watchdog 的启用方式也有所差异。在此，我们先简单介绍启用的大致说明。
+If you can understand this instruction, you can enable Telegram Watchdog directly in your groupchats. Otherwise, we advice you that read this instruction first before read the detailed steps, to understand the general enabling steps.
 
-如果您知道这份说明的具体操作，那么您也可以直接前往群组聊天中启用 Telegram Watchdog。但如果您是刚刚成为新的 Telegram 群组聊天的创建者（群主）、并不了解 Telegram 群组聊天的设置，那么也建议您先阅读这份说明，以了解 Telegram Watchdog 的大致启用方法。
+## Simplified Instruction
 
-## 简单的启用说明
+### Add Bot to Groupchats
+You can find “Add to Groups or Channels” button in the profile of Telegram Watchdog bot. Choose the groupchat you want to enable Telegram Watchdog.
 
-### 将机器人添加至群组中
-您可以在机器人的资料页面找到「添加至群组或频道」的按钮。点击后，您可以选择希望启用 Telegram Watchdog 的群组聊天。
+Then, Telegram will ask you that are you wish to add bot as groupchat admin. Keep the switch on, and make sure the permission “Invite via Link” enabled.
 
-确认后，Telegram 会询问您是否将该机器人添加为群组管理员。请务必开启对应开关，并确保为机器人开启「通过链接邀请」的权限。
-
-::: tip 不能用于频道
-Telegram 并没有为频道（Channels）提供「加入审核」功能，同时 Telegram Watchdog 也并不是为审核频道关注者而设计的，因此 Telegram Watchdog 不能用于频道中。
+::: tip Channels are not Supported
+For “join request” feature does not available in Telegram channels, and Telegram Watchdog does not developed for channels, so you cannot apply Telegram Watchdog to a channel.
 :::
 
-::: tip 推荐「最小权限」
-我们强烈推荐您仅为 Telegram Watchdog 开启「通过链接邀请」的权限。虽然为 Telegram Watchdog 添加更多权限也能正常工作，但考虑到潜在的安全隐患，为机器人开启所有权限并非我们推荐的安全实践。
+::: tip “Minimize Permission” Recommendation 
+We strongly recommend you that just enable “Invite via Link” permission for Telegram Watchdog, even the bot can work with more or all permissions. Consider the potential safety hazards, we do not recommend that turn all permissions on.
 :::
 
-### 开启入群审核功能
-在公开群组和私有群组中，这个功能的开启方式有所不同。
+### Enable Join Requests
+The operations are varied to different types of groupchats.
 
-- 如果您希望在公开群组启用 Telegram Watchdog 机器人，请将发送消息权限限制为仅群组成员可发送消息，并同时开启加入前审核功能
-- 如果您希望在私有群组启用 Telegram Watchdog 机器人，请手动生成新的邀请链接、将该链接设为「加入前审核」，并仅对外分享这个入群链接。
+- For public groupchats, you need to enable “Approve New Members” feature in group settings.
+- For private groupchats, you need to create a new invite link with “Request Admin Approval”
 
-您可以在左侧侧边栏，根据您的群组类型来找到对应的开启方式。
+You can find the more detailed instruction according to the type of your groupchat.

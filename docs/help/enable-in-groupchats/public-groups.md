@@ -1,46 +1,46 @@
 ---
 prev: /help/enable-in-groupchats/
 ---
-# 在公开群组中使用
-::: tip 步骤及细节可能略有差异
-在本篇中，我们将会在 iPhone 版 Telegram app 以英文环境解释如何启用 Telegram Watchdog。
+# In Public Groupchats
+::: tip Details may Varies
+In this document, we will introduce the detailed steps with official Telegram client on an iPhone with “English” OS language setting.
 
-根据您的设备、操作系统和语言设定的不同，启用 Telegram Watchdog 的步骤可能会有所差异，不过，基本步骤类似。您可以根据实际情况调整您的操作。
+Some details may varies according to your device, OS or language settings. However, the steps are highly similar between those situations and you can adjust your operation according to the actual situation.
 :::
-## 将机器人设为管理员
-在 Telegram 中搜索「WatchdogVerifyBot」，找到 Telegram Watchdog 帐户。进入后，点击下方「Start」按钮，机器人将会回复一条消息。点击消息下方的「Set me as group admin」按钮。
+## Set as Admin
+Search “WatchdogVerifyBot” on Telegram and find “Telegram Watchdog”. Tap it and tap “Start” button at the bottom. Then the bot will reply a message. Tap the “Set me as group admin” button below the message.
 
-![搜索 Telegram Watchdog，并点击「Start」。][image-1]
+![Search Telegram Watchdog and click “Start”.][image-1]
 
-::: tip 快速设置管理员
-您也可以点击 [此链接][1] 快速拉起 Telegram app，然后继续此教程（两个操作等价）。
-:::
-
-之后，Telegram 会弹出一个聊天选择器。找到你想启用 Telegram Watchdog 机器人的私有群组聊天。
-
-选择后，Telegram 会询问你是否将 Telegram Watchdog 设为所选群组的管理员，并确定需要的权限。请确保开启「Invite Users via Link」。
-
-确认后，点击「Add Bot as Admin」按钮以完成此步骤设置。
-
-![将 Bot 设为管理员。][image-2]
-
-::: tip 需要管理员权限
-进行以上操作，需要您是对应群组的拥有者（群主），或您拥有该群组的「Invite Users via Link」与「Add New Admins」管理员权限。
+::: tip One-Tap Way to Add Bot
+You can also click [this link][1] to direct to Telegram app, and continue the tutorial (same effect between two ways).
 :::
 
-## 开启加入审核
-在刚才选择的私有群组中，点击右上角群组头像进入群组资料卡。再点击右上角的「Edit」按钮进入群组设置。
+After that, Telegram will pop up a chat selector. Find the groupchat you want to enable Telegram Watchdog.
 
-在设置中点击「Group Type」进入群组类型管理页面。
+In next step, Telegram will ask you that do you wish to add bot as admin. Keep “Admin Rights” switch on, and enable “Invite Users via Link” permission.
 
-![公开群组的群组设置页面，以及启用加入审核的页面。][image-3]
+Tap “Add Bot as Admin” after you confirmed the config.
 
-在群组类型管理页面中，打开「Approve New Members」开关，然后点击右上角的「Done」按钮，即可开启群组加入审核功能，并在有新成员加入的时候激活 Telegram Watchdog。
+![Set bot as admin.][image-2]
 
-::: tip 我看不到对应开关，是怎么回事？
-如果您的 Telegram 客户端版本略低，您可能看不到以上开关，但可以看到「Who can send messages」的选项。将此选项设为「Only members」之后，上面这个设置就会出现。直接将其启用即可。
+::: tip Need Admin Permission
+To do so, you must be the owner of the groupchat, or you have “Invite Users via Link” and “Add New Admins” permission of the groupchat.
+:::
 
-如果您同时无法看到以上两个开关，那么您需要考虑升级您的 Telegram 客户端。
+## Enable Join Request
+In the groupchat you just added Telegram Watchdog, tap the avatar at the top-right corner. Then, enter groupchat settings by tap “Edit” at the top-right corner.
+
+Tap “Group Type” and get into the type management settings.
+
+![Group settings for public groups, and the group type settings.][image-3]
+
+In this page, turn “Approve New Members” on, then tap “Done” at the top-right corner. Now, the join request are enabled in this group, and the Telegram Watchdog will be activated when new members send the join request to the groupchat.
+
+::: tip I Cannot See this Switch!
+If your Telegram app is out-of-dated for some version, you may not see this switch but have “Who can send messages” configuration. Set it as “Only Members” and you will see this switch. Turn this switch on and go on.
+
+However, if you cannot see neither configurations, you may consider to upgrade your Telegram app.
 :::
 
 [1]:	https://t.me/WatchdogVerifyBot?startgroup=start&admin=can_invite_users

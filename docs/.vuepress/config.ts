@@ -5,7 +5,7 @@ export default defineConfig({
     locales: {
       "/": {
         nav: [
-          { text: "Documents", link: "/help/"},
+          { text: "Help Documents", link: "/help/"},
           { text: "FAQ", link: "/faq"},
           { text: "Changelogs", link: "/changelogs/"},
           { text: "Handbook", link: "/handbook/"},

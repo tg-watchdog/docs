@@ -1,6 +1,6 @@
 ---
-prev: /help/
-next: /help/enable-in-groupchats/public-groups
+prev: /zh/help/
+next: /zh/help/enable-in-groupchats/public-groups
 ---
 
 # 在群聊中启用

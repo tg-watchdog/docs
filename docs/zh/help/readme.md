@@ -1,6 +1,6 @@
 ---
 sidebarDepth: 0
-next: /help/enable-in-groupchats/
+next: /zh/help/enable-in-groupchats/
 ---
 
 # 欢迎使用

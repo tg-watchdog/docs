@@ -35,11 +35,12 @@ export default defineConfig({
           "/changelogs/": [
             {
               title: "Latest version",
-              path: "/changelogs/2206.02"
+              path: "/changelogs/2207.01"
             },
             {
               title: "2022",
               children: [
+                '/changelogs/2207.01',
                 '/changelogs/2206.02',
                 '/changelogs/2206.01',
                 '/changelogs/2204.01'

@@ -87,11 +87,12 @@ export default defineConfig({
           "/zh/changelogs/": [
             {
               title: "最新版本",
-              path: "/zh/changelogs/2206.02"
+              path: "/zh/changelogs/2207.01"
             },
             {
               title: "2022",
               children: [
+                '/zh/changelogs/2207.01',
                 '/zh/changelogs/2206.02',
                 '/zh/changelogs/2206.01',
                 '/zh/changelogs/2204.01'

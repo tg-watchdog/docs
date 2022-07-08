@@ -1,5 +1,13 @@
 # 常见问题
 
+## 我无法在 Windows 10 / Windows 11 操作系统上打开 Telegram Watchdog 的验证页面，是怎么回事？
+由于 Microsoft 在最近的 Windows 更新中移除 EdgeHTML 内核的 Microsoft Edge 浏览器，而它被 Telegram Desktop 上 web app 所要求的 Webview2 组件所依赖，因此在新版本的 Windows 10 / Windows 11 系统中会遇到无法启用 web app 的问题。
+
+如果您有这类问题，您可以尝试：
+
+- [前往 Microsoft Developer 网站](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/#download-section) 手动下载 Webview2 组件
+- 在其他平台上完成验证
+
 ## 为什么我开启新成员审核功能后没有生效？
 这是旧的 iOS 版 Telegram 的一个 bug。在开启开关并点击完成按钮保存后，再返回相应页面，相关设置会被重置。
 

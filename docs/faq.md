@@ -1,5 +1,13 @@
 # Frequently Asked Questions
 
+## I cannot launch web app on Windows 10 / Windows 11. Why?
+Microsoft has removed Microsoft Edge with EdgeHTML kernel which was depended by Webview2 requied by Telegram web app in the latest Windows 10 / Windows 11 OS. Because of that, you may not be able to launch web app on Telegram Desktop.
+
+Those are some suggestion that may fix this problem:
+
+- [Go to Microsoft Developer Portal](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section) and download Webview2 component by yourself
+- Complete the verification on other devices
+
 ## Why “join request” not enabled when I turn this on?
 This is a known bug in out-of-dated version of Telegram on iOS. You will see the setting will be reseted when you back to the settings page after you turn join request on.
 

@@ -7,7 +7,7 @@ export default defineConfig({
         nav: [
           { text: "Help Documents", link: "/help/"},
           { text: "FAQ", link: "/faq"},
-          { text: "Changelogs (CN)", link: "/zh/changelogs/"},
+          { text: "Changelogs", link: "/changelogs/"},
           { text: "Handbook (CN)", link: "/zh/handbook/"},
           {
             text: "More", 

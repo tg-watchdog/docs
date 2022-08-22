@@ -8,7 +8,7 @@ export default defineConfig({
           { text: "Help Documents", link: "/help/"},
           { text: "FAQ", link: "/faq"},
           { text: "Changelogs", link: "/changelogs/"},
-          { text: "Handbook (CN)", link: "/zh/handbook/"},
+          { text: "Handbook", link: "/handbook/"},
           {
             text: "More", 
             items: [

@@ -35,7 +35,7 @@ export default defineConfig({
           "/changelogs/": [
             {
               title: "Latest version",
-              path: "/changelogs/2207.01"
+              path: "/changelogs/2208.02"
             },
             {
               title: "2022",
@@ -89,7 +89,7 @@ export default defineConfig({
           "/zh/changelogs/": [
             {
               title: "最新版本",
-              path: "/zh/changelogs/2207.01"
+              path: "/zh/changelogs/2208.02"
             },
             {
               title: "2022",

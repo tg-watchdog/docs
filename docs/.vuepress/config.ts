@@ -40,6 +40,7 @@ export default defineConfig({
             {
               title: "2022",
               children: [
+                '/changelogs/2208.02',
                 '/changelogs/2208.01',
                 '/changelogs/2207.01',
                 '/changelogs/2206.02',
@@ -93,6 +94,7 @@ export default defineConfig({
             {
               title: "2022",
               children: [
+                '/zh/changelogs/2208.02',
                 '/zh/changelogs/2208.01',
                 '/zh/changelogs/2207.01',
                 '/zh/changelogs/2206.02',

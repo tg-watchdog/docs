@@ -15,7 +15,8 @@ export default defineConfig({
               { text: 'Enable in groupchats', link: 'https://t.me/WatchdogVerifyBot?startgroup=start&admin=can_invite_users' },
               { text: 'Try + community', link: 'https://t.me/tgwatchdog_chat' },
               { text: 'Official channel', link: 'https://t.me/tgwatchdog_update' },
-              { text: 'Source code', link: 'https://github.com/Astrian/tg-watchdog'}
+              { text: 'Source code', link: 'https://github.com/Astrian/tg-watchdog'},
+              { text: 'Privacy', link: '/privacy'}
             ]
           },
         ],
@@ -69,7 +70,8 @@ export default defineConfig({
               { text: '在群组中启用', link: 'https://t.me/WatchdogVerifyBot?startgroup=start&admin=can_invite_users' },
               { text: '试用 + 社群', link: 'https://t.me/tgwatchdog_chat' },
               { text: '官方消息频道', link: 'https://t.me/tgwatchdog_update' },
-              { text: '源码库', link: 'https://github.com/Astrian/tg-watchdog'}
+              { text: '源码库', link: 'https://github.com/Astrian/tg-watchdog'},
+              { text: '隐私', link: '/privacy'}
             ]
           },
         ],

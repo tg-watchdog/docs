@@ -27,7 +27,7 @@ Please note that that statement is subject to the Telegram Watchdog algorithm, w
 ## What data will we store?
 Nothing! Also known as we will not store your data.
 
-In the algorithm designing stage, we choose a stateless structure (no database and other data storage ways), which means we intend not to store your data on our server.
+In the algorithm designing stage, we choose a stateless structure (no database and other data storage ways), which means we intend not to store your data on our server, and we cannot do this in this structure.
 
 ## Any problem?
 If you have questions or want to request your data on Telegram Watchdog, you can contact us at elegant.map0806@astrian.moe.

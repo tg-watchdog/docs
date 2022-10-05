@@ -36,11 +36,12 @@ export default defineConfig({
           "/changelogs/": [
             {
               title: "Latest version",
-              path: "/changelogs/2209.01"
+              path: "/changelogs/2210.01"
             },
             {
               title: "2022",
               children: [
+                '/changelogs/2210.01',
                 '/changelogs/2209.01',
                 '/changelogs/2208.02',
                 '/changelogs/2208.01',
@@ -92,11 +93,12 @@ export default defineConfig({
           "/zh/changelogs/": [
             {
               title: "最新版本",
-              path: "/zh/changelogs/2209.01"
+              path: "/zh/changelogs/2210.01"
             },
             {
               title: "2022",
               children: [
+                '/zh/changelogs/2210.01',
                 '/zh/changelogs/2209.01',
                 '/zh/changelogs/2208.02',
                 '/zh/changelogs/2208.01',

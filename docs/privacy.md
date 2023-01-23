@@ -9,7 +9,7 @@ Telegram Watchdog is a CAPTCHA verify bot, as you know. To complete the CAPTCHA 
 The data we will collect when in the CAPTCHA process (and why) are listed below:
 
 - Your Telegram account public information, including but not limited to your unique ID, username, full name and avatar. It can help us to identify different users to contact you directly, mark CAPTCHA results, and make sure the CAPTCHA request is sent from Telegram but not other ways.
-- Your CAPTCHA result ticket. Our CAPTCHA carrier is Friendly Captcha, which will observe your behaviour, issue verification results and help us to complete CAPTCHA verification. [Click here](https://friendlycaptcha.com/privacy/) to check out legal statements of information processing by Friendly Captcha.
+- Your CAPTCHA result ticket. Our CAPTCHA carrier is Cloudflare Turnstile, which will observe your behaviour, issue verification results and help us to complete CAPTCHA verification. [Click here](https://www.cloudflare.com/privacypolicy/) to check out legal statements of information processing by Cloudflare.
 
 Please remember that the information that Telegram Watchdog can fetch is the information you choose to be public in Telegram. Check your Telegram account's privacy settings if you want to hide that information from Telegram Watchdog, and it will not affect Telegram Watchdog. Please note that some data, like your first name or unique ID, cannot be set as private to Telegram Watchdog.
 
@@ -22,7 +22,7 @@ It is no different than you accessing a website with a web browser or in a Web A
 
 Telegram Watchdog will not collect, process and store your IP address and other information not mentioned in the last section. The IP address will process for network processing and transferring and will not be applied to Telegram Watchdog.
 
-Please note that that statement is subject to the Telegram Watchdog algorithm, which excludes the code from Friendly Captcha. You can check out the legal privacy statements for Friendly Captcha [here](https://friendlycaptcha.com/privacy/).
+Please note that that statement is subject to the Telegram Watchdog algorithm, which excludes the code from Cloudflare Turnstile. You can check out the legal privacy statements for Cloudflare Turnstile [here](https://www.cloudflare.com/privacypolicy/).
 
 ## What data will we store?
 Nothing! Also known as we will not store your data.

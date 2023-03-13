@@ -18,10 +18,10 @@ footer: MIT Licensed | Copyright © 2022 Astrian Zheng
 ## Need some help?
 Read [the help documents][1] first.
 
-Or check out at those links if you need more information:
+Or check out those links if you need more information:
 
-- Join official community: [https://t.me/tgwatchdog\_chat][2]
-- Official channel: [https://t.me/tgwatchdog\_update][3]
+- Join the official community: [https://t.me/tgwatchdog\_chat][2]
+- Official Mastodon account: <a rel="me" href="https://astrian.social/@watchdogverifybot">watchdogverifybot@astrian.social</a>
 
 [1]:	/help/
 [2]:	https://t.me/tgwatchdog_chat
